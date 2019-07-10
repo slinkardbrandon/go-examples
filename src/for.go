@@ -1,8 +1,24 @@
 package main
 
+import "fmt"
+
 func main() {
 	// For is go's only looping construct, no do/while, no map, etc
 
-	// Most basic for loop example:
+	fmt.Println("Basic loop")
+	fmt.Println()
 
+	// Most basic for loop example:
+	i := 0
+	for i < 3 {
+		fmt.Println(i)
+		i = i + 1
+	}
+
+	fmt.Println("More shorthand")
+	fmt.Println()
+	// Let's short hand it a tiny bit
+	for i := 0; i < 3; i++ {
+		fmt.Println(i)
+	}
 }
