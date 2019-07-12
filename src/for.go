@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("More shorthand")
 	fmt.Println()
 	// Let's short hand it a tiny bit
-	for i := 0; i < 3; i++ {
-		fmt.Println(i)
+	for x := 0; x < 3; x++ {
+		fmt.Println(x)
 	}
 }
