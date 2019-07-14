@@ -16,7 +16,7 @@ func main() {
 
 }
 
-// This will create a new reference in memory for "val", any modifications done to "val"
+// This will create a new reference in memory for "val" (essentially creating a copy), any modifications done to "val"
 // will not reflect on the provided value but will be modified to this memory reference
 func zeroval(val int) {
 	val = 0
