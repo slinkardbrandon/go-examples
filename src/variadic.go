@@ -10,7 +10,7 @@ func sum(numbers ...int) {
 	total := 0
 
 	for _, num := range numbers {
-		fmt.Println("Calculating: %v + %v", total, num)
+		fmt.Printf("Calculating: %v + %v = %v\n", total, num, total+num)
 		total += num
 	}
 
