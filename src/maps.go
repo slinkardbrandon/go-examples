@@ -23,4 +23,8 @@ func main() {
 	// Print the value that exists on "nasty" (2)
 	fmt.Println(m["nasty"])
 
+	delete(m, "nasty")
+
+	fmt.Println(m)
+	fmt.Println(m["nasty"])
 }
