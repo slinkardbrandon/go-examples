@@ -19,5 +19,5 @@ func main() {
 
 	r := rect{width: 50, height: 100}
 	fmt.Printf("Area of rectangle with a width of %v and a height of %v is %v.\n", r.width, r.height, r.area())
-	fmt.Printf("Permiter of rectangle with a width of %v and a height of %v is %v.\n", r.width, r.height, r.perim())
+	fmt.Printf("Perimeter of rectangle with a width of %v and a height of %v is %v.\n", r.width, r.height, r.perim())
 }
